@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_05A44C38-DADD-485D-81C8-0B1006EA645A" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_07DEEC58-7519-46DF-BEC1-1FEF11340209" name="Traffic Violation " expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_05A44C38-DADD-485D-81C8-0B1006EA645A">
   <dmn:extensionElements/>
+  <dmn:itemDefinition id="_1C6612FE-22ED-411F-B8D4-CE55F22D016E" name="tDriver" isCollection="false">
+    <dmn:itemComponent id="_D7225607-238B-4A41-870D-D5F0AD352199" name="Name" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:decision id="_C84C8DB7-E701-4AB1-AAFD-81EE82A52166" name="Should the driver be suspended?">
     <dmn:extensionElements/>
     <dmn:variable id="_CD6704CA-1F76-4B23-B770-BA0ED40A6159" name="Should the driver be suspended?"/>
@@ -31,15 +36,6 @@
       <di:extension>
         <kie:ComponentsWidthsExtension/>
       </di:extension>
-      <dmndi:DMNShape id="dmnshape-_475A0593-577E-4F6F-8F50-A46A5D316C14" dmnElementRef="_475A0593-577E-4F6F-8F50-A46A5D316C14" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="549" y="342" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_C84C8DB7-E701-4AB1-AAFD-81EE82A52166" dmnElementRef="_C84C8DB7-E701-4AB1-AAFD-81EE82A52166" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -58,6 +54,15 @@
         <dc:Bounds x="198" y="467" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_475A0593-577E-4F6F-8F50-A46A5D316C14" dmnElementRef="_475A0593-577E-4F6F-8F50-A46A5D316C14" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="549" y="342" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_B043128D-7C0D-47D6-B1CC-937DEEEBF9E7" dmnElementRef="_B043128D-7C0D-47D6-B1CC-937DEEEBF9E7" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -67,10 +72,6 @@
         <dc:Bounds x="548" y="474" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNEdge id="dmnedge-_ABB4044E-32CF-4F83-9A8C-FDD0B4B71456" dmnElementRef="_ABB4044E-32CF-4F83-9A8C-FDD0B4B71456">
-        <di:waypoint x="598" y="474"/>
-        <di:waypoint x="599" y="392"/>
-      </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_AB1C3D82-99DD-450D-A02F-2354A109C967" dmnElementRef="_AB1C3D82-99DD-450D-A02F-2354A109C967">
         <di:waypoint x="248" y="467"/>
         <di:waypoint x="449" y="236"/>
@@ -78,6 +79,10 @@
       <dmndi:DMNEdge id="dmnedge-_2AD2A932-A0A4-4655-BE1A-FB1CF8CEDEF5" dmnElementRef="_2AD2A932-A0A4-4655-BE1A-FB1CF8CEDEF5">
         <di:waypoint x="599" y="342"/>
         <di:waypoint x="449" y="236"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_ABB4044E-32CF-4F83-9A8C-FDD0B4B71456" dmnElementRef="_ABB4044E-32CF-4F83-9A8C-FDD0B4B71456">
+        <di:waypoint x="598" y="474"/>
+        <di:waypoint x="599" y="392"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
