@@ -79,7 +79,6 @@
       <dmn:output id="_571A7D0F-7412-491B-9D9E-B12B3DD69EC2" name="Amount" typeRef="number"/>
       <dmn:output id="_51ADF774-B9D3-43CF-BB8C-D02180051EAC" name="Points" typeRef="number"/>
       <dmn:rule id="_956A344D-2C09-4F8F-9E34-FF0492E2AEBC">
-        <dmn:description>Violation.ActualSpeed - Violation.SpeedLimit</dmn:description>
         <dmn:inputEntry id="_502C0640-11CF-42B4-9089-ADAD1D598474">
           <dmn:text>[10..30)</dmn:text>
         </dmn:inputEntry>
