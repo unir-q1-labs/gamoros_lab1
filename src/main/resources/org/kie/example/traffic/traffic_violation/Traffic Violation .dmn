@@ -72,9 +72,9 @@
     <dmn:extensionElements/>
     <dmn:variable id="_2B8CECAF-482D-45BD-AB39-FBEF63C013DF" name="Driver" typeRef="tDriver"/>
   </dmn:inputData>
-  <dmn:decision id="_475A0593-577E-4F6F-8F50-A46A5D316C14" name="FIne">
+  <dmn:decision id="_475A0593-577E-4F6F-8F50-A46A5D316C14" name="Fine">
     <dmn:extensionElements/>
-    <dmn:variable id="_1D022B94-94CE-4E9D-803F-50417EBC4062" name="FIne" typeRef="tFine"/>
+    <dmn:variable id="_1D022B94-94CE-4E9D-803F-50417EBC4062" name="Fine" typeRef="tFine"/>
     <dmn:informationRequirement id="_ABB4044E-32CF-4F83-9A8C-FDD0B4B71456">
       <dmn:requiredInput href="#_B043128D-7C0D-47D6-B1CC-937DEEEBF9E7"/>
     </dmn:informationRequirement>
