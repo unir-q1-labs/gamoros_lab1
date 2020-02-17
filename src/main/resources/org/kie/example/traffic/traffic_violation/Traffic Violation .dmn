@@ -126,7 +126,7 @@
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_E8728A62-6ED6-437D-9E03-12790618126B">
-          <dmn:text>:"driving under the influence"</dmn:text>
+          <dmn:text>"driving under the influence"</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_3FE64455-6CB2-47DB-9A5D-73F62B6A88CB">
           <dmn:text>1000</dmn:text>
