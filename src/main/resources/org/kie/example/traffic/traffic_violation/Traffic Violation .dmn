@@ -77,7 +77,6 @@
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_571A7D0F-7412-491B-9D9E-B12B3DD69EC2" name="Amount" typeRef="number"/>
-      <dmn:output id="_CD135170-0142-4619-92A1-E4E77CB2AA78" name="output-1" typeRef="tFine"/>
       <dmn:output id="_51ADF774-B9D3-43CF-BB8C-D02180051EAC" name="Points" typeRef="number"/>
       <dmn:rule id="_956A344D-2C09-4F8F-9E34-FF0492E2AEBC">
         <dmn:description>Violation.ActualSpeed - Violation.SpeedLimit</dmn:description>
@@ -89,9 +88,6 @@
         </dmn:inputEntry>
         <dmn:outputEntry id="_384016A1-E5FA-493F-8AA0-0A63D9140157">
           <dmn:text>500</dmn:text>
-        </dmn:outputEntry>
-        <dmn:outputEntry id="_6EAAA466-A9AC-4246-AA7F-C09D47A72A92">
-          <dmn:text></dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_4D53AD78-5D42-4573-89E0-B065D1AE0B22">
           <dmn:text>3</dmn:text>
@@ -107,9 +103,6 @@
         <dmn:outputEntry id="_A336D5EF-EA36-4C2A-8619-D67B29BC3FAF">
           <dmn:text>1000</dmn:text>
         </dmn:outputEntry>
-        <dmn:outputEntry id="_BE7C3934-D896-4941-84EC-5B5ED45B01B4">
-          <dmn:text></dmn:text>
-        </dmn:outputEntry>
         <dmn:outputEntry id="_88319BBC-5ED7-408D-9E82-B253E6F540E8">
           <dmn:text>7</dmn:text>
         </dmn:outputEntry>
@@ -124,9 +117,6 @@
         <dmn:outputEntry id="_F7C63416-8924-4D9D-A751-331B75E6529C">
           <dmn:text>100</dmn:text>
         </dmn:outputEntry>
-        <dmn:outputEntry id="_BB7D089F-643F-4501-A0CB-9C4642224909">
-          <dmn:text></dmn:text>
-        </dmn:outputEntry>
         <dmn:outputEntry id="_67FB8324-EDD7-4592-9B10-B9B6478037C0">
           <dmn:text>1</dmn:text>
         </dmn:outputEntry>
@@ -139,13 +129,10 @@
           <dmn:text>:"driving under the influence"</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_3FE64455-6CB2-47DB-9A5D-73F62B6A88CB">
-          <dmn:text></dmn:text>
-        </dmn:outputEntry>
-        <dmn:outputEntry id="_0CC0FD8B-F236-42BB-9761-BF709457AF29">
-          <dmn:text></dmn:text>
+          <dmn:text>1000</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_8374EA4B-F5C2-4768-B6A2-2EF8700DD15B">
-          <dmn:text></dmn:text>
+          <dmn:text>5</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
@@ -162,7 +149,6 @@
             <kie:width>50.0</kie:width>
             <kie:width>162.0</kie:width>
             <kie:width>269.0</kie:width>
-            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>421.0</kie:width>
