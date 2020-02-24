@@ -74,7 +74,7 @@
   </dmn:inputData>
   <dmn:decision id="_475A0593-577E-4F6F-8F50-A46A5D316C14" name="Fine">
     <dmn:extensionElements/>
-    <dmn:variable id="_1D022B94-94CE-4E9D-803F-50417EBC4062" name="Fine"/>
+    <dmn:variable id="_1D022B94-94CE-4E9D-803F-50417EBC4062" name="Fine" typeRef="tFine "/>
     <dmn:informationRequirement id="_ABB4044E-32CF-4F83-9A8C-FDD0B4B71456">
       <dmn:requiredInput href="#_B043128D-7C0D-47D6-B1CC-937DEEEBF9E7"/>
     </dmn:informationRequirement>
@@ -151,7 +151,7 @@
   </dmn:decision>
   <dmn:inputData id="_B043128D-7C0D-47D6-B1CC-937DEEEBF9E7" name="Violation">
     <dmn:extensionElements/>
-    <dmn:variable id="_4731C4A1-839C-4EF2-8A6D-AC872FB0A2F0" name="Violation"/>
+    <dmn:variable id="_4731C4A1-839C-4EF2-8A6D-AC872FB0A2F0" name="Violation" typeRef="tViolation"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
