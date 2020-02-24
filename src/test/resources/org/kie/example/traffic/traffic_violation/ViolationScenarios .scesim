@@ -56,7 +56,7 @@
             <string>Points</string>
           </genericTypes>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>127.85714285714285</columnWidth>
+          <columnWidth>124.85714285714285</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
