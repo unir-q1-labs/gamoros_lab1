@@ -35,11 +35,11 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:itemDefinition id="_E94AC447-0AF2-477D-9877-583286154D99" name="tFine" isCollection="false">
-    <dmn:itemComponent id="_15C0A9F1-AEF4-465E-AF65-E6563FF1DFA3" name="Points " isCollection="true">
+  <dmn:itemDefinition id="_2ABCE9FC-2FD0-4793-B482-4C1D834CED8F" name="tFine " isCollection="false">
+    <dmn:itemComponent id="_7980F747-37AA-4BF0-B32F-4997843479A0" name="Points" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_B3AD67D3-F7D2-4D57-8729-FB7D0444BDC6" name="Amount" isCollection="false">
+    <dmn:itemComponent id="_29540C22-A95B-447D-A825-0E652E7E46FE" name="Amount" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
@@ -74,7 +74,7 @@
   </dmn:inputData>
   <dmn:decision id="_475A0593-577E-4F6F-8F50-A46A5D316C14" name="Fine">
     <dmn:extensionElements/>
-    <dmn:variable id="_1D022B94-94CE-4E9D-803F-50417EBC4062" name="Fine" typeRef="tFine"/>
+    <dmn:variable id="_1D022B94-94CE-4E9D-803F-50417EBC4062" name="Fine"/>
     <dmn:informationRequirement id="_ABB4044E-32CF-4F83-9A8C-FDD0B4B71456">
       <dmn:requiredInput href="#_B043128D-7C0D-47D6-B1CC-937DEEEBF9E7"/>
     </dmn:informationRequirement>
@@ -151,7 +151,7 @@
   </dmn:decision>
   <dmn:inputData id="_B043128D-7C0D-47D6-B1CC-937DEEEBF9E7" name="Violation">
     <dmn:extensionElements/>
-    <dmn:variable id="_4731C4A1-839C-4EF2-8A6D-AC872FB0A2F0" name="Violation" typeRef="tViolation"/>
+    <dmn:variable id="_4731C4A1-839C-4EF2-8A6D-AC872FB0A2F0" name="Violation"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
